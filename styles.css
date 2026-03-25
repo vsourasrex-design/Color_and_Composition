@@ -7,11 +7,11 @@
 
 /* Color Palette (Analogous: Blue → Teal → Purple) */
 :root {
-  --primary: #4f46e5;   /* Indigo */
-  --secondary: #06b6d4; /* Teal */
-  --accent: #9333ea;    /* Purple */
-  --light: #f8fafc;
-  --dark: #0f172a;
+  primary: #4f46e5;   /* Indigo */
+  secondary: #06b6d4; /* Teal */
+  accent: #9333ea;    /* Purple */
+  light: #f8fafc;
+  dark: #0f172a;
 }
 
 body {
@@ -67,7 +67,7 @@ header p {
 }
 
 /* Hover effect */
-.overlay button:hover {
+.overlay button: hover {
   background: #3730a3;
 }
 
