@@ -14,25 +14,25 @@
   dark: #0f172a;
 }
 
-body {
+.body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: var(dark);
+  color: var(-dark);
 }
 
 /* Header */
-header {
-  background: var(primary);
+.header {
+  background: var(-primary);
   color: white;
   text-align: center;
   padding: 60px 20px;
 }
 
-header h1 {
+.header h1 {
   font-size: 3rem;
 }
 
-header p {
+.header p {
   margin-top: 10px;
   font-size: 1.2rem;
 }
@@ -40,7 +40,7 @@ header p {
 /* Gradient Section */
 .gradient-section {
   position: relative;
-  background: linear-gradient(135deg, var(secondary), var(accent));
+  background: linear-gradient(135deg, var(-secondary), var(-accent));
   height: 300px;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@ header p {
   margin-top: 15px;
   padding: 10px 20px;
   border: none;
-  background: var(primary);
+  background: var(-primary);
   color: white;
   cursor: pointer;
   transition: background 0.3s ease;
