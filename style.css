@@ -5,11 +5,11 @@
 }
 
 :root {
-  -primary: #4f46e5;   /* Indigo */
-  -secondary: #06b6d4; /* Teal */
-  -accent: #9333ea;    /* Purple */
-  -light: #f8fafc;
-  -dark: #0f172a;
+  primary: #4f46e5;   /* Indigo */
+  secondary: #06b6d4; /* Teal */
+  accent: #9333ea;    /* Purple */
+  light: #f8fafc;
+  dark: #0f172a;
 }
 
 .body {
