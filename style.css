@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-  background: var(-primary);
+  background: var(primary);
   color: white;
   text-align: center;
   padding: 60px 20px;
@@ -40,7 +40,7 @@ header p {
 /* Gradient Section */
 .gradient-section {
   position: relative;
-  background: linear-gradient(135deg, var(-secondary), var(-accent));
+  background: linear-gradient(135deg, var(secondary), var(accent);
   height: 300px;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@ header p {
   margin-top: 15px;
   padding: 10px 20px;
   border: none;
-  background: var(-primary);
+  background: var(primary);
   color: white;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -73,19 +73,19 @@ header p {
 
 /* Solid Section */
 .solid-section {
-  background: var(-light);
+  background: var(light);
   padding: 60px 20px;
   text-align: center;
 }
 
 .solid-section h2 {
-  color: var(-primary);
+  color: var(primary);
   margin-bottom: 15px;
 }
 
 /* Footer */
 footer {
-  background: var(-dark);
+  background: var(dark);
   color: white;
   text-align: center;
   padding: 20px;
