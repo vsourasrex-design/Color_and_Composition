@@ -1,11 +1,9 @@
-/* Reset */
-* {
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Color Palette (Analogous: Blue → Teal → Purple) */
 :root {
   -primary: #4f46e5;   /* Indigo */
   -secondary: #06b6d4; /* Teal */
